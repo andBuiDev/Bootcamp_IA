@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Bootcamp IA Interactivo - Aprende Inteligencia Artificial Gratis",
+  description: "Bootcamp interactivo de Inteligencia Artificial basado en Talento Tech. Aprende Python, Machine Learning y IA con ejercicios prácticos y proyectos reales.",
+  keywords: ["inteligencia artificial", "machine learning", "bootcamp IA", "python", "educación", "Talento Tech"],
+  authors: [{ name: "Andrés Buitrago" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Bootcamp IA Interactivo",
+    description: "Aprende Inteligencia Artificial de manera interactiva y gratuita",
+    url: "https://andresbuitrago.github.io/bootcamp-ia-interactivo",
+    siteName: "Bootcamp IA Interactivo",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Bootcamp IA Interactivo",
+    description: "Aprende Inteligencia Artificial de manera interactiva y gratuita",
   },
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >

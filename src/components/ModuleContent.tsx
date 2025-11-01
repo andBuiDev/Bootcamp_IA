@@ -918,7 +918,7 @@ export default function ModuleContent({ moduleId, onBack, onComplete }: ModuleCo
 
   const checkQuizAnswer = (exerciseId: string, questionIndex: number, correctAnswer: number) => {
     const userAnswer = quizAnswers[`${exerciseId}_q${questionIndex}`]
-    return parseInt(userAnswer) === correctAnswer
+    return userAnswer ? parseInt(userAnswer) === correctAnswer : false
   }
 
   const checkCodeAnswer = (exerciseId: string, solution: string) => {
